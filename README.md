@@ -11,9 +11,3 @@ Framer Motion.
 - `public/` — foto profil dan gambar hasil proyek (confusion matrix, ERD,
   scatter plot, dll.)
 
-## Mengganti konten
-
-Sebagian besar teks dan data ada di dalam array di masing-masing komponen
-(`components/Projects.tsx`, `components/Experience.tsx`,
-`components/Skills.tsx`) sehingga tinggal disunting langsung tanpa perlu
-menyentuh markup.
