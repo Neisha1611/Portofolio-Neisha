@@ -27,7 +27,7 @@ const projects = [
   {
     number: "02",
     tag: "Data Clustering",
-    title: "Segmentasi Ketergantungan Mahasiswa FIK terhadap Generative AI menggunakan K-Means Clustering",
+    title: "Segmentasi Ketergantungan Mahasiswa FASILKOM terhadap Generative AI menggunakan K-Means Clustering",
     summary:
       "Menganalisis pola penggunaan Generative AI pada mahasiswa Fakultas Ilmu Komputer Universitas Jember dari 53 responden.",
     notes: [
@@ -48,7 +48,7 @@ const projects = [
   {
     number: "03",
     tag: "System Design & Database",
-    title: "Sistem Informasi Manajemen Layanan & Transaksi Laundry \u2014 De Laundry",
+    title: "Sistem Informasi Manajemen Layanan & Transaksi Laundry pada De Laundry",
     summary:
       "Merancang sistem informasi untuk mendigitalisasi pencatatan transaksi laundry yang sebelumnya dilakukan secara manual.",
     notes: [
