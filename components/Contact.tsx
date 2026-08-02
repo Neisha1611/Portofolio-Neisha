@@ -18,7 +18,7 @@ export function Contact() {
       <RevealItem className="rounded-[28px] bg-[var(--plum)] px-[40px] py-[64px] text-center max-md:px-[24px] max-md:py-[48px]">
         <span className="text-[13px] font-semibold uppercase tracking-[0.14em] text-white/70">Kontak</span>
         <h2 className="mb-[16px] mt-[10px] text-[36px] font-bold leading-[1.18] text-white max-md:text-[28px]">
-          Mari terhubung dan berdiskusi.
+          Mari Terhubung dan Berdiskusi
         </h2>
 
         <div className="grid grid-cols-3 gap-[16px] max-md:grid-cols-1">
