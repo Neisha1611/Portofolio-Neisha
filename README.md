@@ -1,22 +1,7 @@
 # Portofolio — Neisha Qonita Nurul Izzah
 
 Portofolio pribadi dibangun dengan Next.js (App Router), Tailwind CSS v4, dan
-Framer Motion. Tampilannya terinspirasi dari layout & animasi
-[rhdigital.co.uk](https://www.rhdigital.co.uk/) — hero berwarna solid dengan
-judul bergilir (rotating headline), foto yang bleed ke tepi, kartu statistik
-mengambang, tombol pill mint sebagai aksen utama, serta efek hero yang
-mengecil & melengkung saat discroll (khusus desktop). Navbar & footer sudah
-tersambung penuh ke setiap section, lengkap dengan indikator menu aktif yang
-bergeser mulus mengikuti posisi scroll.
-
-## Menjalankan secara lokal
-
-```bash
-npm install
-npm run dev
-```
-
-Buka [http://localhost:3000](http://localhost:3000) di browser.
+Framer Motion. 
 
 ## Struktur
 
