@@ -1,4 +1,4 @@
-# Portofolio — Neisha Qonita Nurul Izzah
+# Portofolio Neisha Qonita Nurul Izzah
 
 Portofolio pribadi dibangun dengan Next.js (App Router), Tailwind CSS v4, dan
 Framer Motion. 
