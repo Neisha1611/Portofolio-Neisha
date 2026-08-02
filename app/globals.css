@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-heading: var(--font-sora);
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --plum: #57516f;
+  --plum-deep: #211f2b;
+  --plum-soft: #6b6486;
+  --paper: #f5f2ec;
+  --card: #ffffff;
+  --ink: #1e1b24;
+  --ink-soft: #6b6577;
+  --rule: #e7e2d9;
+  --mint: #63e6a8;
+  --mint-ink: #0d3d29;
+  --coral: #e0a0c4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading), sans-serif;
+}
+
+/* thick marker-style underline sitting behind the last word of a phrase */
+.highlight-mark {
+  position: relative;
+  white-space: nowrap;
+}
+.highlight-mark::after {
+  content: "";
+  position: absolute;
+  left: -2%;
+  right: -2%;
+  bottom: 0.06em;
+  height: 0.28em;
+  background: var(--coral);
+  z-index: -1;
+  border-radius: 2px;
+}
+
+.blob-glow {
+  background: radial-gradient(closest-side, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 100%);
+}
+
+::selection {
+  background: var(--mint);
+  color: var(--mint-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
