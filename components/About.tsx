@@ -24,10 +24,6 @@ export function About() {
           Tentang Saya
         </span>
 
-        <h2 className="mt-[10px] text-[38px] font-bold leading-[1.2] text-[var(--ink)] max-md:text-[30px]">
-          Mengenal saya lebih dekat.
-        </h2>
-
         <p className="mt-[24px] text-[16px] leading-[1.9] text-[var(--ink-soft)]">
           Saya merupakan mahasiswa Sistem Informasi Universitas Jember angkatan
           2024 dengan IPK 3,89. Saya memiliki ketertarikan pada
