@@ -5,10 +5,10 @@ import { RevealItem, RevealSection } from "@/components/ScrollReveal";
 const projects = [
   {
     number: "01",
-    tag: "NLP / Machine Learning",
+    tag: "Data Mining",
     title: "Analisis Sentimen Ulasan Pengguna Aplikasi Shopee menggunakan Naive Bayes Multinomial",
     summary:
-      "Mengklasifikasikan sentimen ulasan pengguna Shopee di Google Play Store menggunakan Natural Language Processing.",
+      "Mengklasifikasikan sentimen ulasan pengguna Shopee di Google Play Store menggunakan Naive Bayes Multinomial.",
     notes: [
       "Dataset ulasan berbahasa Indonesia dari Kaggle, diproses melalui cleaning, tokenization, normalisasi, stopword removal, dan stemming.",
       "Fitur teks direpresentasikan dengan TF-IDF, ketidakseimbangan data ditangani dengan RandomOverSampler.",
@@ -26,7 +26,7 @@ const projects = [
   },
   {
     number: "02",
-    tag: "Data Clustering",
+    tag: "Analisis Visualisasi Data",
     title: "Segmentasi Ketergantungan Mahasiswa FASILKOM terhadap Generative AI menggunakan K-Means Clustering",
     summary:
       "Menganalisis pola penggunaan Generative AI pada mahasiswa Fakultas Ilmu Komputer Universitas Jember dari 53 responden.",
